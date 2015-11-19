@@ -29,5 +29,5 @@ thumbnail = "/images/fr_366.jpeg"
 
 {{< gallery src="/images/fun9.jpg" >}}
 
-{{< gallery src="/images/fun10.jpg" >}}
+{{< gallery src="/images/fun10.JPG" >}}
 

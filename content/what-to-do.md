@@ -6,7 +6,7 @@ menu = "menus"
 
 +++
 
-<img src='/images/theme/rowboat.png' alt='sailboat' class='moving_icon' id="moving_boat" style="position: fixed;margin-top: -432px; margin-left: 575px;">
+<img src='../images/theme/rowboat.png' alt='sailboat' class='moving_icon' id="moving_boat" style="position: fixed;margin-top: -432px; margin-left: 575px;">
 
 Madison is a really great place. Here are a few fun things we recommend checking
 out if you have the time!
@@ -29,7 +29,7 @@ Brocach, Graze, Ian's Pizza, Ha Long Bay, and Dotty Dumpling's Dowry.
 * Wondering what else is going on? Check out the [Isthmus][ist].
 * Ask us for more recommendations if you're curious!
 
-<script src="/js/rowboat.js"></script>
+<script src="../js/rowboat.js"></script>
 
 [fm]: http://dcfm.org/
 [mu]: http://www.union.wisc.edu/venue-muterrace.htm

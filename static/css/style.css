@@ -168,57 +168,57 @@ width: 200px;
 }
 
 .menu_big_left {
-  background-image: url('/images/theme/left-big.png');
+  background-image: url('../images/theme/left-big.png');
 }
 
 .menu_med_left {
-  background-image: url('/images/theme/left-med.png');
+  background-image: url('../images/theme/left-med.png');
 }
 
 .menu_small_left {
-  background-image: url('/images/theme/left-small.png');
+  background-image: url('../images/theme/left-small.png');
 }
 
 .menu_big_right {
-  background-image: url('/images/theme/right-big.png');
+  background-image: url('../images/theme/right-big.png');
 }
 
 .menu_med_right {
-  background-image: url('/images/theme/right-med.png');
+  background-image: url('../images/theme/right-med.png');
 }
 
 .menu_small_right {
-  background-image: url('/images/theme/right-small.png');
+  background-image: url('../images/theme/right-small.png');
 }
 
 .menu_big_left:hover,
 .menu_big_left.active {
-  background-image: url('/images/theme/left-big-hl.png');
+  background-image: url('../images/theme/left-big-hl.png');
 }
 
 .menu_med_left:hover,
 .menu_med_left.active {
-  background-image: url('/images/theme/left-med-hl.png');
+  background-image: url('../images/theme/left-med-hl.png');
 }
 
 .menu_small_left:hover,
 .menu_small_left.active {
-  background-image: url('/images/theme/left-small-hl.png');
+  background-image: url('../images/theme/left-small-hl.png');
 }
 
 .menu_big_right:hover,
 .menu_big_right.active {
-  background-image: url('/images/theme/right-big-hl.png');
+  background-image: url('../images/theme/right-big-hl.png');
 }
 
 .menu_med_right:hover,
 .menu_med_right.active {
-  background-image: url('/images/theme/right-med-hl.png');
+  background-image: url('../images/theme/right-med-hl.png');
 }
 
 .menu_small_right:hover,
 .menu_small_right.active{
-  background-image: url('/images/theme/right-small-hl.png');
+  background-image: url('../images/theme/right-small-hl.png');
 }
 
 .menu-item a {
@@ -266,7 +266,7 @@ div.img-thumbnail {
 
 @media (min-width: 992px) {
 body{
-  background-image:url('/images/theme/seamlesspaper3.png'); 
+  background-image:url('../images/theme/seamlesspaper3.png'); 
   background-attachment:fixed;
 }
 

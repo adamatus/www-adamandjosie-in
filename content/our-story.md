@@ -6,7 +6,7 @@ menu = "menus"
 
 +++
 
-<img src='/images/theme/bike.png' alt='bike' class='moving_icon' id="moving_bike" style="position: fixed;margin-top: -180px; margin-left: 665px;">
+<img src='../images/theme/bike.png' alt='bike' class='moving_icon' id="moving_bike" style="position: fixed;margin-top: -180px; margin-left: 665px;">
 
 <div class='row'>
   <div class='col-md-4'>
@@ -53,10 +53,4 @@ to Josie at the campfire.</p>
   </div>
 </div>
 
-<script src="/js/bike.js"></script>
-
-
-
-
-
-
+<script src="../js/bike.js"></script>

@@ -6,7 +6,7 @@ menu = "menus"
 
 +++
 
-<img src='/images/theme/hummer.png' alt='sailboat' class='moving_icon' id="moving_boat" style="position: fixed;margin-top: -500px; margin-left: 561px;">
+<img src='../images/theme/hummer.png' alt='sailboat' class='moving_icon' id="moving_boat" style="position: fixed;margin-top: -500px; margin-left: 561px;">
 
 ## Hotel Reservations
 
@@ -34,7 +34,7 @@ campground mostly caters to RV's, there are some tent campsites for those that
 might be interested. For details check out [the Lake Farm County Park
 website][park].
 
-<script src="/js/hummer.js"></script>
+<script src="../js/hummer.js"></script>
 
 [map]: /love/map/
 [link]: https://www.starwoodmeeting.com/Book/GolembiewskiRiggallWedding

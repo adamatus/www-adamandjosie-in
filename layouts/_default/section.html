@@ -1,0 +1,15 @@
+{{ partial "header.html" }}
+
+<header class="col-xs-12">
+  <h1 id="title">{{ .Title }}</h1>
+</header>
+
+<img src='/images/theme/swan-boat.png' alt='sailboat' class='moving_icon' id="moving_boat" style="position: fixed;margin-top: 86px; margin-left: 561px;">
+
+{{ range .Data.Pages }}
+  {{ .Render "summary" }}
+{{ end }}
+
+<script src="/js/swan.js"></script>
+
+{{ partial "footer.html" }}

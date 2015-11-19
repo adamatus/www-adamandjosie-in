@@ -1,0 +1,13 @@
+<div class="row" style="padding: 5px 0;">
+  <div class="col-xs-6 col-md-4">
+      <a class="pull-left" href="{{ .Permalink }}">
+        <img src="{{ .Params.thumbnail }}" class="img-responsive img-thumbnail col-xs-12">
+      </a>
+  </div>
+  <div class="col-xs-6 col-md-8">
+    <div class="gallery-descrip">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <p><a href="{{ .Permalink }}">{{ .Params.summary }}</a></p>
+    </div>
+  </div>
+</div>

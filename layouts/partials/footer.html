@@ -1,0 +1,36 @@
+    </div> <!-- // content -->
+    <div id="footer">
+      <img class='img-responsive' alt='Flowered lake shore' src='/images/theme/footer.png'>
+    </div>
+    <div id="vignette">
+    </div>
+  </div>
+<script>
+
+var fixFooter = function() {
+  if ($(window).width() < 768) {
+    var footer_height = $('#footer').height();
+//    $('#wrap').css({"margin":"0 auto -"+footer_height+'px', "padding": "0 0 "+footer_height+'px'})
+
+    var win_height = $(window).height();
+    var header_height = $('#header').height();
+    var nav_bar_height = $('#mobile-nav').height();
+    var content_height = $('#content').height();
+
+    var min_content_height = win_height - header_height - footer_height - nav_bar_height;
+
+    if (content_height < min_content_height) {
+      $('#content').css('height',min_content_height+'px');
+    }
+  }
+}
+
+$(window).resize(function() {
+  fixFooter();
+});
+
+fixFooter();
+ </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  </body>
+</html>

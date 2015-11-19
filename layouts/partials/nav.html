@@ -1,0 +1,72 @@
+<nav class="navbar navbar-default visible-xs" role="navigation" id='mobile-nav'>
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Adam &amp; Josie</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li>
+        <a class="{{ if eq .URL "/" }}active{{ end }}" href="/" target="_self">Home</a>
+      </li>
+      <li>
+        <a class="{{ if eq .URL "/our-story/" }}active{{ end }}" href="/our-story/" target="_self">Our Story</a>
+      </li>
+      <li class="">
+        <a class="" href="/photos/" target="_self">Photos</a>
+      </li>
+      <li class="">
+        <a class="" href="/wedding-info/" target="_self">Wedding Info</a>
+      </li>
+      <li class="">
+        <a class="" href="/registries/" target="_self">Registries</a>
+      </li>
+      <li class="">
+        <a class="" href="/lodging/" target="_self">Lodging</a>
+      </li>
+      <li class="">
+        <a class="" href="/what-to-do/" target="_self">What To Do</a>
+      </li>
+      <li class="">
+        <a class="" href="/map/" target="_self">Map</a>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+<div id="tree-menu" class=''>
+  <img class='img-bg' alt='Pine Tree Top' src='/images/theme/tree-top.png'>
+  <img class='img-bg' alt='Pine Tree Trunk' src='/images/theme/tree-trunk.png'>
+  <div id="tree-menu-signs">
+    <div class="menu-item">
+      <a class="menu_small_right" href="/">Home</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_med_left" href="/our-story/">Our Story</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_big_right" href="/photos/">Photos</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_big_left" href="/wedding-info/">Wedding Info</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_big_right" href="/registries/">Registries</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_med_left" href="/lodging/">Lodging</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_big_right" href="/what-to-do/">What To Do</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu_small_left" href="/map/">Map</a>
+    </div>
+  </div>
+</div>
